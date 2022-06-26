@@ -1,0 +1,21 @@
+ext {
+    MIN_SDK_VERSION = 21
+    TARGET_SDK_VERSION = 32
+    COMPILE_SDK_VERSION = 32
+
+    VERSION_CODE = 1
+    VERSION_NAME = "1.0.0"
+
+    versions = [
+            // App libraries
+            'androidXCoreKTX'           : '1.8.0',
+            'androidXAppCompat'         : '1.4.2',
+            'androidXConstraintLayout'  : '2.1.4',
+            'material'                  : '1.6.1',
+
+            // Testing Libraries
+            'junit'                     : '4.13.2',
+            'androidXJUnit'             : '1.1.3',
+            'androidXEspressoCore'      : '3.4.0'
+    ]
+}
